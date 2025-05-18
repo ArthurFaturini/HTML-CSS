@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <h2>Usando Links Externos</h2>
+    <!--Para abrir em uma nova aba um link externo escreva
+        (target="_blank" rel="external")
+    -->
+    <p>Você pode acessar o meu <a href="https://github.com/ArthurFaturini/Assistente-Virtual" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://www.youtube.com/@Nerd_Filos%C3%B3fico" target="_blank" rel="external">canal no YouTube</a></p>
+    <h2>Usando Links Internos</h2>
+    <p>Esta é a primeira página do site. Se quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+
+    <h2>Links para Download</h2>
+    <ul>
+        <!--O download="" serve para colocar o nome do arquivo ao ser baixado-->
+        <li><a href="arquivos/COISAS P' FAZER AO ACORDAR.txt" download="Teste.txt">Baixar TXT</a></li>
+        <li><a href="arquivos/HTML & CSS - Projete e Construa Websites.pdf" download="HTML & CSS - Projete e Construa Websites.pdf" type="application/pdf">Baixar PDF</a></li>
+    </ul>
+    <!--
+        Para saber mais sobre os tipos de "rel" dos links acesse https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types
+    -->
+</body>
+</html>

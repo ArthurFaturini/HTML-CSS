@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+    <style>
+        /* * { /*Configurações Globais
+            height: 100%;
+        } 
+        Não está funcionando, pois tem estilização nos h2 */ 
+
+        body {
+            /*O primeiro parâmetro é a direção, serve tanto a palavra(right por exemplo) ou o ângulo(90deg)
+            O restante são as cores, sem limite para cores, entretanto não é interessante exagerar
+            */
+            background-image: linear-gradient(270deg, #A684CE,#8D49C2,#D21F56,#DE0008,#F56B00,#FCD806);
+        }
+
+    </style>
+</head>
+<body>
+    <!--Representação Por Nomes-->
+    <h2 style="background-color: blue; color: white;">Exemplo de cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores rem odit fugit velit, nemo doloribus aliquam debitis fuga tenetur distinctio repudiandae maxime laborum assumenda voluptatibus. Ullam harum non ipsum.</p>
+    <!--Representação Por Hexadecimais-->
+    <h2 style="background-color: #00f; color: #fff;">Exemplo de cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores rem odit fugit velit, nemo doloribus aliquam debitis fuga tenetur distinctio repudiandae maxime laborum assumenda voluptatibus. Ullam harum non ipsum.</p>
+    <!--Representação Por RGB-->
+    <h2 style="background-color: rgb(0,0,255); color: rgb(255,255,255);">Exemplo de cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores rem odit fugit velit, nemo doloribus aliquam debitis fuga tenetur distinctio repudiandae maxime laborum assumenda voluptatibus. Ullam harum non ipsum.</p>
+    <!--Representação Por HSL (Hue, Saturation, Lightness)-->
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores rem odit fugit velit, nemo doloribus aliquam debitis fuga tenetur distinctio repudiandae maxime laborum assumenda voluptatibus. Ullam harum non ipsum.</p>
+</body>
+</html>

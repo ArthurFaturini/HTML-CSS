@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        /*Fontes também tem DIREITOS AUTORAIS, TOME CUIDADO CASO FOR USAR COMERCIALMENTE
+        Sites para fontes: google fonts, dafont.com
+        Extensão para saber a fonte de um site: Fonts Ninja
+        Sites para reconhecer fontes em imagem: whatfontis.com, fontsquirrel.com, myfonts.com
+        */
+
+
+        /*Para importar uma fonte, faça isso...*/
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+        
+        /*Nesse caso, a fonte é diretamente do google fontes, porém tem como usar fontes baixadas também, dessa forma...*/
+        @font-face {
+            font-family: 'Old London';
+            src: url(fontes/Olondon_.otf) format('opentype'), url(fontes/OldLondon.ttf) format('truetype');
+            /*Tipos de Format()
+            -> opentype (otf) - MAIS USADO e RECOMENDADO
+            -> truetype (ttf) - MAIS USADO e RECOMENDADO
+            -> embedded-opentype
+            -> truetype-aat (Apple Advanced Typography)
+            -> svg
+            */
+        }
+
+        body {
+            font-family: "DM Serif Text", serif;
+        }
+
+        /*Peso da Fonte(weight): lighter, normal, bold, bolder ou 100 - 900
+          Estilo da Fonte(style): normal, italic, oblique, inherit, initial e unset
+          Text Decoration(sublinhado|underline)
+        */
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand(atalho)
+                -> font style -> font weight -> font size -> font family
+            */
+            font: italic bolder 3em Arial, sans-serif;
+        }
+
+        h2 {
+            font-family: 'Old London';
+            font-size: 2em;
+        }
+        
+    </style>
+    <!--Caso a família seja com duas palavras, têm que ser escritas entre aspas: 'Courier New'
+
+        O formato padrão de font-family é feito com 3 palavras, pois o navegador/computador irá testar a próxima que aparece, isso é chamado de "Web Safe Combination". Qualquer coisa pesquise no google.
+    -->
+    <!--Tamanhos de Fontes:
+    
+        Medidas Absolutas: 
+
+            cm, mm, in(inches), px(RECOMENDADO), pt(ponto), pc(paica)
+
+        Medidas Relativas:
+                    
+            em	->	relativo ao tamanho natural da fonte - MAIS USADO E RECOMENDADO
+            ex	->	relativo a altura x da fonte
+            rem	->	tipo em, mas relativo a fonte configurada no body
+            vw	->	relativo a largura da view port
+            vh	->	relativo a altura da view port
+            %	->	porcentagem
+
+        Recomendação w3c:  "px" ou "em"
+
+        Mais usado o "em", pois tem uma flexibilidade/adaptabilidade melhor, ou seja, se adapta a monitores, televisões, celulares, tablets, notebooks...
+
+        Altura padrão:  16px ou/= 1em
+    
+    -->
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere nobis asperiores beatae expedita porro impedit provident id fugit! Vel tempora ratione aliquid placeat, reprehenderit voluptatem amet. Iusto dolorem eligendi natus reprehenderit laborum mollitia, animi aliquid praesentium expedita corrupti numquam voluptatum quia quas possimus veritatis, sequi porro rem, magnam nulla quasi fuga ea id? Placeat veritatis illum explicabo, dolore enim aut debitis quas eveniet vel sint facere tenetur, cumque voluptatum quasi tempora fuga blanditiis vitae aliquid dignissimos error suscipit! Ab facilis maxime vero neque voluptatem deleniti facere iste rem doloribus, officia at quasi autem obcaecati mollitia placeat doloremque pariatur odit!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, autem? Nam sequi pariatur, cum ullam nostrum quis, aliquid nulla nihil sint architecto ipsam hic eveniet deserunt rerum laborum illum et quo ea facere maxime. Aliquid, facere! Soluta aliquam minima voluptatem veniam dolorem perferendis ipsum! Dolores numquam eveniet perspiciatis facilis consectetur.</p>
+
+    <!--TipoGrafia: É o estudo das fontes
+    É importante escolher fontes boas, pois as fontes, assim como, as cores, também transmitem sentimentos.
+    
+    Anatomia do Tipo:
+    As letras são feitas com base na altura da letra "x" minúscula chamado também de altura-x e também tem a altura das maiúsculas, a altura que vai do limite das letras maiúsculas até o limite das letras descendentes é chamado de "corpo", letras passam as linhas horizontais que limitam a altura das letras minúsculas, tem partes ascendentes(passam pela linha de cima) e descendentes(passam pela linha de baixo).
+
+    Serifa: É um "acabamento" nas pontas das letras que criam uma linha imaginária para melhor compreensão do nosso cérebro durante a leitura.
+
+    Haste: O traço principal vertical ou diagonal de uma letra.
+
+    Filete: Um traço deitado que une duas hastes.
+
+    Arco: Formato curvado presente em algumas letras.
+
+    Esporão: Formato de "pezinho" presente em algumas letras.
+
+    Vértice: Assim como na matemática, ponta da letra.
+
+    Terminal: Um elemento final em alguma letra, por exemplo o "r".
+
+    Braço: Elemento que sai da haste e vai para cima, exemplo o: K
+    Perna: Elemento que sai da haste e vai para baixo, exemplo o: K
+
+    Pé: Base de uma letra.
+
+    Espinha: Um elemento que possui duas curvas, uma para cada lado. Por exemplo o "S".
+
+    Barriga: Curva na frente de uma letra, por exemplo: b
+
+    Olho: Área fechada dentro de uma letra, por exemplo: Q, g, O, e
+
+    Orelha: Elemento presente na parte superior da letra, exemplo o "g"
+    
+    Cauda: Elemento presente na parte descendente da letra. Q, g
+
+    Glifo: É uma letra
+
+    Fonte: Um conjunto de caracteres/letras
+
+    Família Tipográfica: São tipos diferentes de letra, porém são da mesma fonte.
+
+    Categoria de Fontes:
+        - Serifadas
+        - Sans-Serif -> Recomendação para textos muito longos em telas
+        - Monoespaçadas(Todas as letras tem o mesmo espaço lateral)
+        - Handwriting
+        - Display ou Comemorativas(Não se importam em seguir as regras tipográficas)
+    -->
+</body>
+</html>

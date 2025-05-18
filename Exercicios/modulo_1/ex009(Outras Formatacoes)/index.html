@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte e Pré-Formatação</h2>
+    <!-- Tag <code> serve para colocar códigos-->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre> <!-- A tag <pre> respeita os espaços, ajuda muito quando tem que colocar códigos-->
+        <code>
+num = int(input("Digite um número: "))
+if num % 2 == 0:
+    print(f"O número {num} é PAR")
+else:
+    print(f"O número {num} é ÍMPAR")
+print("Fim do Programa")
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <!--A tag <q> é usado para citações, ele dá significado para aquela frase-->
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <!-- O atributo cite permite referenciar de onde foi tirada a citação, isso ajuda aos mecanismos de buscas a considerar o seu site mais semântico-->
+    <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24&ab_channel=CursoemV%C3%ADdeo">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, autem ab vitae provident accusantium, ipsum dolore saepe nobis ea at itaque sunt minima! Inventore, ex.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <h2>Texto Invertido</h2>
+    <!--Não muito útil, porém legal-->
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

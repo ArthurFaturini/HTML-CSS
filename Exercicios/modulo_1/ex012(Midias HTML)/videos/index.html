@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedados Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!--Parâmetros: 
+        poster = Tumbnail do vídeo
+        width = Limita o tamanho de largura do vídeo, porém a qualidade e tamanho ainda é mantido
+    -->
+    <video controls width="560" poster="midia/ceia-4.jpg">
+        <source src="midia/meu-video-full.mp4" type="video/mp4">
+        <source src="midia/Meu-Video-720-creator.mp4" type="video/mp4">
+        <source src="midia/Meu-Video-720-creator.webm" type="video/webm">
+        <source src="midia/Meu-Video-1080-creator.mp4" type="video/mp4">
+        <p>Caso não tenha carregado o vídeo, <a href="midia/meu-video-full.mp4" download="video.mp4">Clique aqui para baixar</a></p>
+    </video>
+
+    <h1>Inserindo Vídeos do YouTube</h1>
+    <!--Incorporando Vídeos de Outras Plataformas
+        A vantagem consiste no fato de que dessa forma não gasta com o tráfego de dados com a empresa de hospedagem.
+        Ou seja, melhor/mais barato do que a outra forma.
+    -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=NC40VZBTUHIOoMzb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!--AutoPlay em Vídeos
+        O auto play mudou no Chrome ele ainda funciona desde que o vídeo esteja sem som, e só adicionar a tag muted antes do auto play.
+    -->
+
+    <!--Formatos de Vídeo Mais Utilizados e Suportados
+        - MP4 e M4V
+        - WEBM
+        - OGV
+    -->
+</body>
+</html>

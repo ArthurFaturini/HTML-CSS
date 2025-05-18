@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkgray;
+            padding: 10px 10px 10px 10px;
+            margin: 30px;
+        }
+        
+        a {
+            border: 10px solid red;
+            padding: 10px 10px 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box Level</h1> <!--Box Level-->
+    <p>Parágrafos também são Box Level <a href="#">já os links são Inline-Level</a>. Vamos ver como funciona.</p> <!--Box Level-->
+    <!--Modelos
+    - Box-Level: Sempre é criado em uma linha nova, ocupa toda a viewport do navegador/tela e caso crie algo depois dele, será criado abaixo dele em uma nova linha.
+    Ex: (<div>)
+        - - - - - - - - - - 
+        - - - - - - - - - -
+        - - 
+        ===================
+        - - - - - - - - - -
+        - - - -
+
+
+    - Inline-Level: É criado na mesma linha em que é pedido e permite a continuação do texto na mesma linha
+    Ex: (<span>)
+        - - - - - - - - - - 
+        - - - - - - - - - - 
+        - - - ======= - - -
+        - - - - - - - - - -
+        - - - -
+
+
+    -->
+</body>
+</html>

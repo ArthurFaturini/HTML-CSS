@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--Parâmetros da Tag <audio>-->
+    <!--controls = Mostra o controle de áudio
+        autoplay = Toca a música automaticamente    
+    -->
+    <audio src="audio/Oh-Christmas-Tree-DJ Williams.mp3" controls></audio> <!--Formato Padrão-->
+    <!--Formatos que são aceitos no Chrome(Áudio): MP3(MPEG), WAV e OGG
+        Entretanto vale lembrar que certos navegadores não são compatíveis com esses formatos
+    -->
+
+    <!--Desta forma, o navegador irá testando cada formato de áudio e o que funcionar ele escolhe-->
+    <!--Parârametro preload serve para dizer ao site se as informações serão mostradas ao carregar todo o áudio(auto), se já irá mostrar as informações antes de carregar tudo(metadata) ou não irá mostrar(none)-->
+    <audio preload="metadata">
+        <source src="audio/Oh-Christmas-Tree-DJ Williams.mp3" type="audio/mpeg">
+        <source src="audio/Oh-Christmas-Tree-DJ Williams.ogg" type="audio/ogg">
+        <source src="audio/Oh-Christmas-Tree-DJ Williams.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio, <a href="audio/Oh-Christmas-Tree-DJ Williams.mp3" download="Musiquinha.mp3" type="application/mpeg">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

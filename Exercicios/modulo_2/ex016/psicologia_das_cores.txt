@@ -1,0 +1,94 @@
+Azul:
+    ◦   Tem ligação com conceitos como competência, sabedoria, calma, confiança, profissionalismo, integridade e segurança.
+    ◦   É estatisticamente a cor mais aceita do mundo, com aproximadamente 46% de aprovação.
+    ◦   É a cor com a menor taxa de rejeição, com apenas cerca de 1% das pessoas dizendo que realmente não gostam dela.
+    ◦   É por isso que muitas empresas, especialmente as de tecnologia, acabam levando suas cores para o azul, pois é uma questão de segurança e de remeter a esses conceitos.
+    ◦   Exemplos de uso: Facebook, Twitter, LinkedIn, Dell, HP, Intel, Curso em Vídeo (azul em diferentes tons). Nubank (que é uma empresa de finanças jovem e inovadora, usa um azul meio roxo). Site de vinho (para vinho branco, um tom mais claro). Google Plan your Planet (para a seção sobre economizar água).
+
+
+Vermelho:
+    ◦   É a cor associada a amor, emoção e energia.
+    ◦   Também é relacionada a raiva e perigo.
+    ◦   É recomendado para uso em sites de comida, moda, entretenimento, serviços de emergência e serviços de saúde.
+    ◦   Deve-se evitar o uso de vermelho em produtos que querem se remeter a algo como luxo, natureza, ou uso de serviços em geral.
+    ◦   Usar o vermelho, mesmo em sites de luxo (onde é recomendado evitar), não é proibido, mas você deve usá-lo sabendo que ele causa essas reações no cérebro humano.
+    ◦   Quando se exagera no vermelho, pode causar um efeito específico.
+    ◦   Exemplos de uso: Netflix (identidade vermelha e preta muito forte). McDonald's (combinação vermelho com amarelo, relacionada à alimentação e felicidade). Nubank usa vermelho em um tom diferente do azul principal. Um site que parece ser um "geito" para levar a outros lugares na internet usa vermelho de forma que o locutor considera exagerada, mas possivelmente porque o usuário não ficará muito tempo ali.
+
+
+Amarelo:
+    ◦   Representa felicidade, alegria e otimismo.
+    ◦   Em combinação com o vermelho, tem uma relação com a alimentação.
+    ◦   Exemplo de uso: McDonald's (combinação vermelho e amarelo).
+
+
+Marrom:
+    ◦   Tem uma ideia de robusto, estabilidade e amizade.
+    ◦   Apesar de ser uma cor que muitas pessoas não gostam ou que a galera que estuda design às vezes evita, ela pode ser bem utilizada e aproveitada.
+    ◦   Pode ser usado com dourado para dar ideia de luxo.
+    ◦   Tem relação com vermelho e amarelo em determinados aspectos.
+    ◦   Exemplos de uso: McDonald's tem usado marrom e cinza para dar ideia de sanduíches mais premium/gordinhos. Um restaurante francês utilizou o marrom com dourado de forma interessante para dar uma ideia de luxo. Site de vinho pode usar tons terrosos/marrom.
+    
+
+Laranja:
+    ◦   Representa divertimento, ambição, calor e cautela.
+    ◦   É uma cor que pode ser explorada.
+    ◦   Exemplos de uso: Burger King (concorrente do McDonald's) pegou mais uma identidade de laranja, utilizando também o cinza. Um site de refrigerante que promete relaxamento usa laranja para um dos sabores.
+
+
+Verde:
+    ◦   Te leva a conceitos de saúde, natureza, dinheiro, sorte.
+    ◦   Também te leva a inveja.
+    ◦   É muito utilizado para relaxamento, turismo, coisas financeiras, meio ambiente.
+    ◦   Deve-se evitar o uso de verde para luxo, tecnologia e, segundo alguns estudos, não é muito aceita para meninas adolescentes (mas cada caso é um caso).
+    ◦   Exemplos de uso: Greenpeace (utiliza bastante verde em sua identidade). Um restaurante francês utilizou um tom de verde para se referir a legumes e ingredientes. Site de vinho (para vinho branco, associado à garrafa). Google Plan your Planet (para a seção sobre economizar energia).
+
+
+Roxo:
+    ◦   Tem ligação com criatividade, poder e sabedoria.
+    ◦   Segundo a "cadelinha" (referência ao material PDF), deve-se evitar pois não prende muito a atenção do espectador.
+    ◦   É bastante utilizado para coisas inovadoras e criativas.
+    ◦   Exemplos de uso: Milka (marca de chocolate) usa roxo (em tons monocromáticos). Alguns bancos são roxinhos. Nubank usa um azul meio roxo.
+    
+
+Rosa:
+    ◦   Na lista, significa amor, romance, sinceridade e cuidados.
+    ◦   É bem recomendado para uso em produtos femininos e cosméticos.
+    ◦   Pode dar uma ideia muito sentimental ou doce.
+    ◦   Deve-se evitar usar o rosa se o seu produto não tem essa pegada sentimental ou doce.
+    ◦   Exemplos de uso: Empresas relacionadas a cosméticos usam bastante rosa. Um site de refrigerante que promete relaxamento usa rosa para o sabor "Rose".
+    
+
+Preto e Branco:
+    ◦   A combinação preto com branco causa um contraste muito grande.
+    ◦   O contraste de fundo preto com letra branca causa cansaço visual muito rápido, especialmente se houver uma grande quantidade de texto.
+    ◦   O contraste de fundo branco com letra preta é o tradicional, o cérebro já está mais acostumado com isso (como uma folha de papel).
+    ◦   Use o contraste de fundo preto com letra branca somente se você tem pouquíssimo conteúdo a consumir.
+    ◦   Exemplos de uso: Netflix usa vermelho e preto no site principal, mas áreas com muito texto como o centro de ajuda ou termos de uso usam o tradicional branco com preto. Um site de uma designer de joias usou preto e branco para as joias prateadas.
+
+
+Dourado e Prata:
+    ◦   Embora não tenham atribuições listadas separadamente como as outras cores, são mostrados em exemplos de uso em sites de joias.
+    ◦   O dourado é mostrado em conjunto com o amarelo e com o marrom.É dito que o dourado é muito relacionado com o vermelho. Foi usado com marrom em um restaurante para dar ideia de luxo.
+    ◦   O prata é mostrado em conjunto com o preto e branco.
+
+--------------------------------------------- / ---------------- / ---------------------------------------------
+
+Círculo Cromático:
+    - Cores Primárias: Amarelo, Vermelho e Azul
+
+    - Cores Secundárias: Laranja, Violeta(Roxo) e Verde
+
+    - Cores Terciárias: São as cores entre as Primárias e Secundárias
+
+    Cores Complementares: São as cores opostas as outras no círculo cromático. (Contraste)
+
+    Cores Análogas: São as cores vizinhas da cor escolhida, complementando 3 cores totais (1 escolhida + 2 vizinhas). (Harmônicas)
+
+    Cores Análogas Relacionadas: Duas cores vizinhas e uma cor escolhida após pular uma casa do círculo cromático.
+
+    Cores Intercaladas: Escolhe uma cor de referência, pula uma, e escolhe, pula uma, e escolhe.
+
+Paleta de Cores: São de 3 a 5 cores, desconsiderando o preto e branco
+
+Sites para fazer paleta: Adobe Color, Paletton, Coolors

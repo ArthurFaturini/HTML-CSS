@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div.trio{
+            display: inline-block;
+            background-color: lightgray;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        /* : = Pseudo Classes = Tem haver com o estado do elemento
+        */
+
+        .trio:hover{
+            background-color: lightblue;
+        }
+
+        /*Acessando um elemento, nesse caso o <p>, dentro da div*/
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="d1" class="trio">01</div>
+    <div id="d2" class="trio">02</div>
+    <div id="d3" class="trio">03</div>
+
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO!</p>
+    </div>
+    <p>Fim do exemplo.</p>
+
+    <!---->
+</body>
+</html>
