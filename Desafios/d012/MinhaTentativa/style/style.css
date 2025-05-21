@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/* Medida Interessante para melhorar a responsividade do site, no caso, estou falando do "vw" = Viewport Width.
+   Um exemplo utilizado, foi o fato do tamanho das letras mudarem de acordo com o tamanho da tela.
+   Isso combinado com o min/max-width para blocos/divs melhora muito mais a responsividade.
+*/
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 10vw;
+
+    padding-top: 50px;
+
+}
+
+header p {
+    font-family: var(--fonte1);
+
+    padding-bottom: 50px;
+}
+
+header a{
+    font-family: var(--fonte1);
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+main > section.fundo-branco{
+    padding: 70px 30px;
+
+    background-color: white;
+}
+
+main > section.fundo-branco > p{
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    line-height: 7vw;
+
+    padding-bottom: 6vw;
+}
+
+main > section.fundo-transparente{
+    font-size: 3.5vw;
+    line-height: 7vw;
+    
+    padding: 70px 30px;
+    
+    background-color: transparent;
+
+    box-shadow: inset 1px 1px 10px #000000d7;
+}
+
+main > section#img01{
+    background-image: url("../imagens/background001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+main > section#img02{
+    background-image: url("../imagens/background002.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+main p.paragrafo-transparente{
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+
+
+    width: 42vw;
+
+    padding: 5px;
+
+    background-color: #0000005b;
+    color: white;
+
+    text-shadow: 1px 1px 1px black;
+}
+
+
+footer{
+    font-family: var(--fonte1);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
