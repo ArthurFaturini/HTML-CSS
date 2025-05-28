@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu FlexBox</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        header{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            background-color: gray;
+            color: white;
+            height: auto;
+
+            padding: 15px;
+        }
+        
+        header h1{
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 5px black;
+        }
+
+        header ul{
+            display: flex;
+
+            align-self: center;
+
+            list-style: none;
+            gap: 10px;
+        }
+
+        header ul li a{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        header ul li a:hover{
+            background-color: white;
+            color: black;
+            transition: 0.5s;
+        }
+
+
+        main{
+            text-align: justify;
+
+            width: auto;
+
+            margin: 10px;
+            padding: 10px;
+
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px black;
+            background-color: white;
+        }
+
+
+        @media (max-width: 600px) {
+            header, header ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header ul{
+                gap: 10px;
+                width: 100%;
+            }
+
+            header ul li{
+                display: flex;
+                flex-grow: 1;
+                text-align: center;
+            }
+            header ul li a{
+                flex-grow: 1;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+            <li><a href="#">Opção 6</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Teste de FlexBox</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis libero nam pariatur adipisci ratione! Neque quos, vero quibusdam architecto obcaecati quo sequi debitis eligendi itaque id quidem similique, autem sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex dolores praesentium accusantium cupiditate ratione doloribus adipisci quae sint exercitationem eligendi asperiores obcaecati, itaque nemo minima? Recusandae iure nihil libero!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit animi, accusamus nostrum explicabo earum veritatis rem vero nisi in similique vel officia cupiditate ea aliquid maxime quia quos voluptatum commodi!</p>
+    </main>
+</body>
+</html>
