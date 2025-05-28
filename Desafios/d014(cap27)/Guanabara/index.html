@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Flex</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        p{
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        h1, h2{
+            margin-bottom: 20px;
+        }
+
+        header, section.normal{
+            padding: 20px;
+        }
+
+        section.flex-content{
+            display: flex;
+            flex-flow: column nowrap;
+
+            padding: 20px;
+            background-color: lightgray;
+        }
+
+        article.media-text{
+            display: flex;
+            flex-flow: row wrap-reverse; /*Poderia ter só usado o wrap-reverse, esqueci completamente*/
+            justify-content: space-between;
+        }
+        
+        article.text-media{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+
+        article > div.text{
+            flex: 1 1 500px;
+        }
+        article > div.media{
+            flex: 1 0 500px;
+        }
+
+        div.media img{
+            display: block;
+            margin: auto;
+            width: 300px;
+            padding: 10px;
+        }
+
+        div.media iframe{
+            display: block;
+            margin: auto;
+            width: 90%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Conteúdo Flexível</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque eaque illum reiciendis est! In tenetur corrupti alias? Impedit placeat dolore possimus error! Doloremque quasi consectetur iste reiciendis? Minima, sequi!</p>
+    </header>
+    <main>
+        <section class="flex-content">
+            <article class="media-text">
+                <div class="text">
+                    <h2>Elemento Media->Text</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, veritatis. Dignissimos commodi tempora, possimus ducimus minima qui obcaecati deleniti. Voluptas sequi aspernatur nisi dolor amet optio nobis maiores at incidunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, aliquid quis? Architecto voluptatum voluptas eum necessitatibus nobis, beatae aperiam, ea eveniet repudiandae vel sit sunt distinctio, facilis molestiae libero nisi.</p>
+                </div>
+                <div class="media">
+                    <img src="imagens/frango.webp" alt="">
+                </div>
+            </article>
+            <article class="text-media">
+                <div class="text">
+                    <h2>Elemento Text->Media</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere totam ea repellat et quo rerum dolor, cupiditate eaque est aut, minus sed dolorem eum odit quisquam consequatur beatae saepe distinctio.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maxime voluptatibus, rerum neque delectus, repudiandae alias expedita, eum culpa quo suscipit magnam mollitia exercitationem magni dolorem excepturi ab iure? Id?</p>
+                </div>
+                <div class="media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VBGMnFHRqcY?si=mQnUyajdzEQEA0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+        </section>
+        <section class="normal">
+            <h2>Conteúdo Normal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem quidem molestiae earum officia, atque voluptas quis. Eius, in accusamus rerum rem adipisci optio minus ducimus quaerat placeat quis numquam.</p>
+        </section>
+    </main>
+</body>
+</html>
