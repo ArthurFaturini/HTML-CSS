@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            padding: 20px;
+        }
+
+        header h1{
+            margin-bottom: 20px;
+        }
+
+        section.fundo_cinza{
+            background-color: lightgray;
+        }
+
+        section{
+            padding: 20px;
+            line-height: 25px;
+        }
+
+        section h2{
+            margin-bottom: 20px;
+        }
+
+        section#media-text{
+            display: flex;
+            padding: 0px;
+        }
+        section#media-text img{
+            padding: 20px;
+
+        }
+        
+        section#text-media{
+            display: flex;
+            padding: 0px;
+        }
+        section#text-media iframe{
+            width: 50vw;
+            height: 70vh;
+            padding: 20px;
+        }
+        
+        
+        @media (max-width: 700px){
+            section#media-text{
+                flex-flow: column-reverse wrap;
+            }
+            
+            section#media-text img{
+                align-self: center;
+            }
+            
+            section#text-media{
+                flex-flow: column wrap;
+            }
+            section#text-media div{
+                align-self: center;
+            }
+            section#text-media div iframe{
+                width: 90vw;
+                height: 70vh;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de conteúdo flexível</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi praesentium odio ad enim dolores architecto est eligendi, adipisci eum laboriosam expedita hic veritatis repellendus odit doloremque quos facere recusandae nulla!</p>
+    </header>
+    <main>
+        <section id="media-text" class="fundo_cinza">
+            <section >
+                <h2>Elemento Media->Text</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquam laudantium vero modi quasi dolorum dolor soluta quod fugiat quis, ipsum necessitatibus expedita blanditiis officiis nostrum impedit illo officia. Sed?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facere exercitationem itaque reprehenderit eum nisi praesentium modi eligendi soluta, tempora officia, expedita facilis repellendus dignissimos sit obcaecati vel quisquam aut?
+                </p>
+            </section>
+                <img src="imagens/frango.webp" width="50%" alt="">
+        </section>
+        <section id="text-media" class="fundo_cinza">
+            <section>
+                <h2>Elemento Text->Media</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum, mollitia amet laudantium soluta nemo? Ducimus quo aperiam omnis eligendi fuga quibusdam, commodi enim quas quam, natus eos nesciunt consequatur. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vero, excepturi dignissimos qui neque consequatur quibusdam mollitia ut corporis odit blanditiis dolores ducimus alias in molestias placeat architecto amet dicta.
+                </p>
+            </section>
+            <div><iframe width="560" height="315" src="https://www.youtube.com/embed/VBGMnFHRqcY?si=mQnUyajdzEQEA0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </section>
+        <section>
+            <h2>Conteúdo Normal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae ea quae totam recusandae dolore fugit! Beatae, aperiam laboriosam. Maxime optio nesciunt ipsa consequatur dicta, rem eum tempore dolor hic harum!</p>
+        </section>
+    </main>
+</body>
+</html>
